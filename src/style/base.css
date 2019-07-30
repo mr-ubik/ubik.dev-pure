@@ -1,0 +1,13 @@
+:root {
+    --black: #0e0e0e;
+    --gold: gold;
+}
+
+a {
+    color: None;
+}
+
+body {
+    background: var(--black);
+    color: var(--gold);
+}
