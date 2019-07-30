@@ -1,33 +1,5 @@
-.lt-grid-container {
+.grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.lt-social {
-    grid-area: 1 / 1 / 11 / 2;
-}
-
-.lt-journal {
-    grid-area: 6 / 3 / 9 / 7;
-}
-
-.lt-essays {
-    grid-area: 7 / 4 / 10 / 8;
-}
-
-.lt-workshops {
-    grid-area: 6 / 10 / 9 / 14;
-}
-
-.lt-talks {
-    grid-area: 7 / 9 / 10 / 13;
-}
-
-.lt-ubiktech {
-    grid-area: 2 / 3 / 5 / 7;
-}
-
-.lt-info {
-    grid-area: 2 / 10 / 5 / 14;
+    grid-template-rows: repeat(1fr, 6);
+    grid-template-columns: repeat(1fr, 6);
 }

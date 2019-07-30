@@ -3,11 +3,11 @@
     --gold: gold;
 }
 
-a {
-    color: None;
-}
-
 body {
     background: var(--black);
-    color: var(--gold);
+    /* color: var(--gold); */
+}
+
+.mpe {
+    background: var(--gold);
 }
