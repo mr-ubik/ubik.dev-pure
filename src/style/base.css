@@ -1,13 +1,27 @@
-:root {
-    --black: #0e0e0e;
-    --gold: gold;
-}
+/* :root {
+    --bird-flower: #ccac00;
+    --black-russian0: #24252b;
+    --black-russian1: #171a1f;
+    --black0: #0e0e0e;
+    --brass: #b5a642;
+    --bronze: #cd7f32;
+    --dark-orange: #ff9300;
+    --gamboge: #cf9300;
+    --gold-tips: #ddac2f;
+    --gold0: #ffd700;
+    --han-purple: #482cf6;
+    --lightning-yellow: #f6ad2c;
+    --nandor: #5e5f5e;
+    --nero: #282828;
+    --royal-blue: #2c75f6;
+    --tenne: #b36600;
+    --vis-vis: #f4de94;
+} */
 
 body {
-    background: var(--black);
-    /* color: var(--gold); */
+    background: var(--black0);
 }
 
 .mpe {
-    background: var(--gold);
+    color: var(--lightning-yellow);
 }
