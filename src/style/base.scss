@@ -1,0 +1,123 @@
+:root {
+    --bird-flower: #ccac00;
+    --black-russian0: #24252b;
+    --black-russian1: #171a1f;
+    --black0: #0e0e0e;
+    --brass: #b5a642;
+    --bronze: #cd7f32;
+    --dark-orange: #ff9300;
+    --gamboge: #cf9300;
+    --gold-tips: #ddac2f;
+    --gold0: #ffd700;
+    --han-purple: #482cf6;
+    --lightning-yellow: #f6ad2c;
+    --nandor: #5e5f5e;
+    --nero: #282828;
+    --royal-blue: #2c75f6;
+    --tenne: #b36600;
+    --vis-vis: #f4de94;
+
+    // Primaries
+    --primary: var(--gamboge);
+    --secondary: var(--black-russian1);
+}
+
+body {
+    background: var(--black0);
+    font-family: Hack;
+    color: var(--primary);
+    font-size: 0.75rem;
+    height: 100vh;
+}
+
+// Grid Container
+
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(140px, 1vw) 8fr 2fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+// Sidebar
+
+.sidebar {
+    display: flex;
+    flex-flow: column nowrap;
+    background: var(--primary);
+    height: 100%;
+    a {
+        color: var(--secondary);
+        text-decoration: unset;
+    }
+
+    .social.top {
+        justify-content: flex-start;
+        margin-top: 2vh;
+    }
+
+    .social.bottom {
+        display: flex;
+        justify-content: flex-end;
+        flex-flow: column nowrap;
+        margin-bottom: 2vh;
+    }
+
+    .portfolio {
+        flex-grow: 2;
+    }
+}
+
+.social {
+    font-size: 2rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.portfolio {
+    font-size: 1rem;
+    text-align: left;
+    margin: none;
+    padding: unset;
+
+    a {
+        padding-top: 10px;
+        border-top: 1px solid var(--secondary);
+    }
+
+    li {
+        padding: 0.5rem 1.5rem;
+        list-style: none;
+    }
+
+    li:hover {
+        padding: 0.5rem 0.75rem;
+        border-left: 0.75rem solid var(--secondary);
+    }
+}
+
+// Biography
+
+.bio {
+    border: 2rem ridge var(--primary);
+    padding-right: 2vw;
+    padding-left: 2vw;
+    background: var(--secondary);
+    font-size: 1rem;
+}
+
+.quote {
+    font-size: 0.75rem;
+}
+
+.info {
+    font-weight: normal;
+
+    li {
+        b {
+            text-decoration: underline;
+        }
+    }
+}
+
+// Utilities
