@@ -27,6 +27,7 @@
     "scripts": {
         "start": "parcel ./src/index.html",
         "build": "parcel build ./src/index.html",
+        "deploy": "gsutil -m rsync -d -r dist gs://ubik.dev",
         "lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
         "lintfix": "eslint --fix --ext .ts,.js,.vue --ignore-path .gitignore ."
     }
